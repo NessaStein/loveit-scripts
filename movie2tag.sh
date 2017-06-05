@@ -3,7 +3,7 @@
 
 # usage:
 # list3包含需要匹配的电影名称，douban每次接受一个电影名称，输出匹配的电影类型到output.txt
-# for i in `cat list3.txt`;do echo `bash douban.sh $i` | tee -a ~/output.txt;done 
+# for i in `cat list3.txt`;do echo `bash movie2tag.sh $i` | tee -a ~/output.txt;done 
 
 # 命令行接受参数电影名称
 MovieName=$1
